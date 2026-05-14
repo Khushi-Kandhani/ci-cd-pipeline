@@ -3,6 +3,7 @@ from main import app
 
 client = TestClient(app)
 
+
 def test_home():
     response = client.get("/")
 
